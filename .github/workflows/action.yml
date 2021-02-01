@@ -25,7 +25,10 @@ jobs:
           plugin_music_limit: 4          # Limit to 4 entries
           plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
           
-            # ... habits plugin options
+           # ... lines plugin options
+          plugin_lines: yes
+         
+          # ... habits plugin options
           plugin_habits: yes
           plugin_habits_from: 500       # Use 200 events to compute habits
           plugin_habits_days: 90   # Keep only events from last 14 days
