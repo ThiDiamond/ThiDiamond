@@ -35,3 +35,8 @@ jobs:
           plugin_habits_facts: yes      # Display facts section
           plugin_habits_charts: no     # Display charts section
           config_timezone: America/Sao_Paulo # Set timezone
+          
+           # ... other options
+          plugin_languages: yes
+          plugin_languages_ignored: html, css                          # List of languages to ignore
+          plugin_languages_details: bytes-size, percentage             # Additionally display total bytes size and percentage
